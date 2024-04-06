@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(120deg, #FF00C7 0%, #51003F 100%), linear-gradient(120deg, #0030AD 0%, #00071A 100%), linear-gradient(180deg, #000346 0%, #FF0000 100%), linear-gradient(60deg, #0029FF 0%, #AA0014 100%), radial-gradient(100% 165% at 100% 100%, #FF00A8 0%, #00FF47 100%), radial-gradient(100% 150% at 0% 0%, #FFF500 0%, #51D500 100%);
+    background-blend-mode: overlay, color-dodge, overlay, overlay, difference, normal;    /* 如果你希望背景圖片不要重複並填滿整個畫面 */
+    background-size: cover;
+    /* 如果你希望背景圖片固定在視窗中不隨捲動而移動 */
+    background-attachment: fixed;
+}
