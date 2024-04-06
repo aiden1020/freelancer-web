@@ -6,7 +6,7 @@ const Navbar = () =>{
     return(
         <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white select-none'>
         <div className='flex items-center'>
-            <img src="./logo.png" alt="logo" className=" h-[60px] p-1"/>
+            <img src="./freelancer-web/logo.png" alt="logo" className=" h-[60px] p-1"/>
             <h1 className='text-3xl font-bold text-white'>Slash</h1>
         </div>
 
