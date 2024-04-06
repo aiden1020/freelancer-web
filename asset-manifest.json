@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/freelancer-web/static/css/main.fdc440d8.css",
+    "main.js": "/freelancer-web/static/js/main.68e2f843.js",
+    "index.html": "/freelancer-web/index.html",
+    "main.fdc440d8.css.map": "/freelancer-web/static/css/main.fdc440d8.css.map",
+    "main.68e2f843.js.map": "/freelancer-web/static/js/main.68e2f843.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdc440d8.css",
+    "static/js/main.68e2f843.js"
+  ]
+}
