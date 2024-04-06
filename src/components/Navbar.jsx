@@ -1,12 +1,12 @@
 import React  ,{ useState } from "react";
 import {AiOutlineClose ,AiOutlineMenu} from 'react-icons/ai'
-
+import Logo from '../assets/logo.png'
 const Navbar = () =>{
     const [open , setOpen] =useState([false]);
     return(
         <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white select-none'>
         <div className='flex items-center'>
-            <img src="./freelancer-web/logo.png" alt="logo" className=" h-[60px] p-1"/>
+            <img src={Logo} alt="logo" className=" h-[60px] p-1"/>
             <h1 className='text-3xl font-bold text-white'>Slash</h1>
         </div>
 
