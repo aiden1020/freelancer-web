@@ -2,7 +2,7 @@ import React from "react";
 import {AppleDLButton,GooglePlayDLButton} from "./DL_Button.jsx"
 const Hero =()=>{
 return (
-    <div class="flex h-full justify-center items-center text-white ">
+    <div id='home' class="flex h-full justify-center items-center text-white ">
         <div class="w-max h-24  text-center">
             <h1 class="hero_title text-8xl p-4">Slash</h1>
             <h2 className=" text-5xl font-bold p-2">全新自由工作配對平台</h2>

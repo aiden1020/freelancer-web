@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Background_Video from "./assets/bg_video.mp4"
 import Sevice from "./components/Sevice";
+import About from "./components/About";
 function App() {
   return (
       <div className="main ">
@@ -13,6 +14,7 @@ function App() {
 
           <Navbar />
           <Hero />
+          <About/>
           <Sevice/>
         </div>
       </div>
